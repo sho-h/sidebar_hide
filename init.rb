@@ -8,4 +8,5 @@ Redmine::Plugin.register :sidebar_hide do
   version '0.0.8'
   url 'https://github.com/bdemirkir/sidebar_hide'
   author_url 'https://github.com/bdemirkir'
+  directory File.expand_path(__dir__)
 end
